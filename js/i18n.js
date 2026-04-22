@@ -150,6 +150,18 @@ var T = {
   "logo.name":{"en":"Guangwei Sunglasses Factory","zh":"光威光学太阳镜工厂","es":"Fábrica de Gafas de Sol Guangwei","fr":"Usine de Lunettes de Soleil Guangwei","pt":"Fábrica de Óculos de Sol Guangwei","ru":"Гуанвэй Фабрика Солнцезащитных Очков"},
   "crumb.home":{"en":"Home","zh":"首页","es":"Inicio","fr":"Accueil","pt":"Início","ru":"Главная"},
   "factory.story.p2":{"en":"Our 8,000 square meter facility in Zhejiang province houses 5 automated production lines, a dedicated R&D center with 50+ engineers, and a rigorous 3-stage quality control system. From classic aviator styles to high-end luxury frames, we have the expertise and capacity to deliver at any scale.","zh":"我们在浙江拥有8000平米的工厂，设有5条自动化生产线、50+工程师的研发中心和完善的三阶段质量控制系统。从经典飞行员款到高端奢华镜架，我们具备任何规模的交付能力和专业知识。","es":"Nuestra instalación de 8.000 metros cuadrados en la provincia de Zhejiang cuenta con 5 líneas de producción automatizadas, un centro de I+D dedicado con más de 50 ingenieros y un riguroso sistema de control de calidad de 3 etapas.","fr":"Notre installation de 8 000 mètres carrés dans la province du Zhejiang abrite 5 lignes de production automatisées, un centre de R&D dédié avec plus de 50 ingénieurs et un système de contrôle qualité en 3 étapes.","pt":"Nossa instalação de 8.000 metros quadrados na província de Zhejiang abriga 5 linhas de produção automatizadas, um centro de P&D dedicado com mais de 50 engenheiros e um rigoroso sistema de controle de qualidade em 3 estágios.","ru":"Наш комплекс площадью 8000 кв.м в провинции Чжэцзян включает 5 автоматизированных производственных линий, исследовательский центр с 50+ инженерами и строгую систему контроля качества из 3 этапов."},
+},
+  "process.tag.type":{"en":"Product type","zh":"产品类型","es":"Tipo de producto","fr":"Type de produit","pt":"Tipo de produto","ru":"Тип продукта"},
+  "process.tag.qty":{"en":"Quantity","zh":"数量","es":"Cantidad","fr":"Quantité","pt":"Quantidade","ru":"Количество"},
+  "process.tag.logo":{"en":"Custom logo","zh":"定制Logo","es":"Logo personalizado","fr":"Logo personnalisé","pt":"Logo personalizado","ru":"Пользовательский логотип"},
+  "process.tag.price":{"en":"Target price","zh":"目标价格","es":"Precio objetivo","fr":"Prix cible","pt":"Preço-alvo","ru":"Целевая цена"},
+  "process.stage1":{"en":"Stage 1","zh":"阶段1","es":"Etapa 1","fr":"Étape 1","pt":"Etapa 1","ru":"Этап 1"},
+  "process.stage2":{"en":"Stage 2","zh":"阶段2","es":"Etapa 2","fr":"Étape 2","pt":"Etapa 2","ru":"Этап 2"},
+  "process.stage3":{"en":"Stage 3","zh":"阶段3","es":"Etapa 3","fr":"Étape 3","pt":"Etapa 3","ru":"Этап 3"},
+  "process.matqc":{"en":"Materials QC","zh":"来料质检","es":"Control de materiales","fr":"Contrôle matériaux","pt":"Controle de materiais","ru":"Входной контроль"},
+  "process.inprocqc":{"en":"In-Process QC","zh":"过程质检","es":"Control en proceso","fr":"Contrôle process","pt":"Controle em processo","ru":"Процессный контроль"},
+  "process.shipqc":{"en":"Pre-Ship QC","zh":"出货质检","es":"Control previo envío","fr":"Contrôle avant expédition","pt":"Controle pré-envio","ru":"Контроль перед отгрузкой"},
+  "process.quickov":{"en":"At a Glance","zh":"快速概览","es":"En resumen","fr":"En un coup d'œil","pt":"Em resumo","ru":"Краткий обзор"},
 };
 
 function setLang(lang) {
