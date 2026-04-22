@@ -173,6 +173,12 @@ var T = {
   "process.matqc":{"en":"Materials QC","zh":"来料质检","es":"Materials QC","fr":"Materials QC","pt":"Materials QC","ru":"Materials QC"},
   "process.inprocqc":{"en":"In-Process QC","zh":"过程质检","es":"In-Process QC","fr":"In-Process QC","pt":"In-Process QC","ru":"In-Process QC"},
   "process.shipqc":{"en":"Pre-Ship QC","zh":"出货质检","es":"Pre-Ship QC","fr":"Pre-Ship QC","pt":"Pre-Ship QC","ru":"Pre-Ship QC"},
+  "process.express.time":{"en":"Express (5-7 days) to US/EU","zh":"快递（5-7天）到美国/欧盟","es":"Expreso (5-7 días) a EE.UU./UE","fr":"Express (5-7 jours) vers les États-Unis/UE","pt":"Expresso (5-7 dias) para EUA/UE","ru":"Экспресс (5-7 дней) в США/ЕС"},
+  "process.sea.time":{"en":"Sea freight (20-30 days)","zh":"海运（20-30天）","es":"Envío marítimo (20-30 días)","fr":"Transport maritime (20-30 jours)","pt":"Frete marítimo (20-30 dias)","ru":"Морской груз (20-30 дней)"},
+  "process.payment.methods":{"en":"Payment methods: T/T, L/C, PayPal, Western Union","zh":"付款方式：T/T、L/C、PayPal、西联汇款","es":"Métodos de pago: T/T, L/C, PayPal, Transferencia Western","fr":"Modes de paiement: T/T, L/C, PayPal, Western Union","pt":"Métodos de pagamento: T/T, L/C, PayPal, Western Union","ru":"Способы оплаты: T/T, L/C, PayPal, Western Union"},
+  "process.payment.deposit":{"en":"Deposit: 30% upon order","zh":"定金：下单后付30%","es":"Depósito: 30% al confirmar","fr":"Acompte: 30% à la commande","pt":"Depósito: 30% ao confirmar","ru":"Депозит: 30% при подтверждении"},
+  "process.payment.balance":{"en":"Balance: 70% before shipment","zh":"尾款：发货前付70%","es":"Saldo: 70% antes del envío","fr":"Solde: 70% avant expédition","pt":"Saldo: 70% antes do envio","ru":"Остаток: 70% перед отгрузкой"},
+
   "p1.tag.1":{"en":"Unisex","zh":"通用","es":"Unisex","fr":"Unisexe","pt":"Unisexo","ru":"Унисекс"},
   "p1.tag.2":{"en":"Metal","zh":"金属","es":"Metal","fr":"Métal","pt":"Metal","ru":"Металл"},
   "p1.tag.3":{"en":"UV400","zh":"UV400","es":"UV400","fr":"UV400","pt":"UV400","ru":"UV400"},
