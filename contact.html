@@ -20,7 +20,7 @@
 <a href="contact.html" class="active" data-i18n="nav.contact">Contact</a>
 <a href="contact.html" class="nc" data-i18n="nav.quote">Get Quote</a>
 </nav>
-<select class="ls" id="langSel"><option value="en">EN</option><option value="zh">中文</option></select>
+<select class="ls" id="langSel"><option value="en">EN</option><option value="zh">中文</option><option value="es">Español</option><option value="fr">Français</option><option value="pt">Português</option><option value="ru">Русский</option></select>
 <button class="mobile-menu" id="mobileMenu">☰</button>
 </div>
 </div>
@@ -38,13 +38,13 @@
 <div class="cn">
 <div class="cg">
 <div class="ci">
-<h2 style="font-size:20px;font-weight:800;color:var(--p);margin-bottom:14px">Contact Information</h2>
-<p style="color:var(--tl);font-size:13px;margin-bottom:20px;line-height:1.7">Reach out through any of the channels below. We respond within 2 hours during business hours (Mon-Sat, 9AM-6PM CST).</p>
+<h2 style="font-size:20px;font-weight:800;color:var(--p);margin-bottom:14px" data-i18n="c.info">Contact Information</h2>
+<p style="color:var(--tl);font-size:13px;margin-bottom:20px;line-height:1.7" data-i18n="c.info.sub">Reach out through any of the channels below. We respond within 2 hours during business hours (Mon-Sat, 9AM-6PM CST).</p>
 
 <div class="citem">
 <div class="cicon">📍</div>
 <div>
-<div style="font-weight:600;color:var(--p);font-size:13px">Address</div>
+<div style="font-weight:600;color:var(--p);font-size:13px" data-i18n="f.addr.label">Address</div>
 <div style="color:var(--tl);font-size:13px" data-i18n="c.addr">Zhejiang Province, China</div>
 </div>
 </div>
@@ -68,7 +68,7 @@
 <div class="citem">
 <div class="cicon">⏰</div>
 <div>
-<div style="font-weight:600;color:var(--p);font-size:13px">Business Hours</div>
+<div style="font-weight:600;color:var(--p);font-size:13px" data-i18n="f.hours.label">Business Hours</div>
 <div style="color:var(--tl);font-size:13px" data-i18n="c.hours">Mon-Sat: 9AM - 6PM (CST, UTC+8)</div>
 </div>
 </div>
@@ -80,19 +80,19 @@
 </div>
 
 <div style="margin-top:24px;padding:16px;background:#fff;border-radius:8px;border:1px solid #e0e0e0">
-<h4 style="font-size:14px;font-weight:700;color:var(--p);margin-bottom:10px">What happens next?</h4>
+<h4 style="font-size:14px;font-weight:700;color:var(--p);margin-bottom:10px" data-i18n="c.next">What happens next?</h4>
 <ol style="color:var(--tl);font-size:12px;line-height:2;padding-left:16px">
-<li>We reply within 2 hours (working hours)</li>
-<li>You share product requirements & target price</li>
-<li>We send detailed quotation within 24 hours</li>
-<li>Sample production begins upon approval (7-10 days)</li>
+<li data-i18n="c.next1">We reply within 2 hours (working hours)</li>
+<li data-i18n="c.next2">You share product requirements & target price</li>
+<li data-i18n="c.next3">We send detailed quotation within 24 hours</li>
+<li data-i18n="c.next4">Sample production begins upon approval (7-10 days)</li>
 </ol>
 </div>
 </div>
 
 <div class="cform">
-<h2 style="font-size:18px;font-weight:800;color:var(--p);margin-bottom:4px">Send Inquiry</h2>
-<p style="color:var(--tl);font-size:12px;margin-bottom:18px">Fill out the form below and we'll get back to you within 24 hours.</p>
+<h2 style="font-size:18px;font-weight:800;color:var(--p);margin-bottom:4px" data-i18n="c.form.title" data-i18n="c.form.title">Send Inquiry</h2>
+<p style="color:var(--tl);font-size:12px;margin-bottom:18px" data-i18n="c.form.sub" data-i18n="c.form.sub">Fill out the form below and we'll get back to you within 24 hours.</p>
 
 <form action="https://api.web3forms.com/submit" method="POST" id="contactForm" onsubmit="return handleFormSubmit(event)">
 <input type="hidden" name="access_key" value="2d5e68a7-e8af-44b6-b0f8-d007e01f65e2">
@@ -124,14 +124,14 @@
 <div class="fgg">
 <label data-i18n="f.product">Interested In *</label>
 <select name="product" required>
-<option value="">-- Select Product --</option>
+<option value="" data-i18n="f.select">-- Select Product --</option>
 <option>Classic Aviator</option>
 <option>Sport Performance</option>
 <option>Fashion Cat Eye</option>
 <option>Kids Sunglasses</option>
 <option>Luxury Designer</option>
 <option>Square Retro</option>
-<option>OEM/ODM Custom Design</option>
+<option data-i18n="f.select.p7">OEM/ODM Custom Design</option>
 </select>
 </div>
 
@@ -146,7 +146,7 @@
 </div>
 
 <div id="formSuccess"></div>
-<button type="submit" class="fs" data-i18n="f.submit">Send Inquiry</button>
+<button type="submit" class="fs" data-i18n="f.submit" data-i18n="c.form.title" data-i18n="c.form.title">Send Inquiry</button>
 </form>
 </div>
 </div>
@@ -155,8 +155,8 @@
 
 <section class="cta-banner">
 <div class="cn">
-<h2>Prefer to talk directly?</h2>
-<p>WhatsApp us anytime — fast responses, no forms needed.</p>
+<h2 data-i18n="c.form.prefer">Prefer to talk directly?</h2>
+<p data-i18n="c.form.wa">WhatsApp us anytime — fast responses, no forms needed.</p>
 <a href="https://wa.me/8613100395383?text=Hi, I am interested in your sunglasses OEM/ODM services." target="_blank" class="wa-btn" style="background:#fff;color:#25D366;font-size:15px;padding:14px 24px">
 💬 +86 131 0039 5383
 </a>
