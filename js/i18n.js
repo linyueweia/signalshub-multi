@@ -172,7 +172,11 @@ var T = {
   "process.stage3":{"en":"Stage 3","zh":"阶段3","es":"Stage 3","fr":"Stage 3","pt":"Stage 3","ru":"Stage 3"},
   "process.matqc":{"en":"Materials QC","zh":"来料质检","es":"Materials QC","fr":"Materials QC","pt":"Materials QC","ru":"Materials QC"},
   "process.inprocqc":{"en":"In-Process QC","zh":"过程质检","es":"In-Process QC","fr":"In-Process QC","pt":"In-Process QC","ru":"In-Process QC"},
-  "process.shipqc":{"en":"Pre-Ship QC","zh":"出货质检","es":"Pre-Ship QC","fr":"Pre-Ship QC","pt":"Pre-Ship QC","ru":"Pre-Ship QC"}
+  "process.shipqc":{"en":"Pre-Ship QC","zh":"出货质检","es":"Pre-Ship QC","fr":"Pre-Ship QC","pt":"Pre-Ship QC","ru":"Pre-Ship QC"},
+  "c.phone":{"en":"💬 +86 131 0039 5383","zh":"💬 +86 131 0039 5383","es":"💬 +86 131 0039 5383","fr":"💬 +86 131 0039 5383","pt":"💬 +86 131 0039 5383","ru":"💬 +86 131 0039 5383"},
+  "footer.privacy":{"en":"Privacy Policy","zh":"隐私政策","es":"Política de Privacidad","fr":"Politique de Confidentialité","pt":"Política de Privacidade","ru":"Политика Конфиденциальности"},
+  "footer.terms":{"en":"Terms of Service","zh":"服务条款","es":"Términos de Servicio","fr":"Conditions d'Utilisation","pt":"Termos de Serviço","ru":"Условия Использования"}
+
 };
 
 
